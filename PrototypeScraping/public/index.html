@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torfs' Scraping</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+    <body>
+        <div class="gender">
+            <h1>Choose your gender</h1>
+            <img src="assets/female.png" alt="Female" class="genderImg" id="female">
+            <img src="assets/male.png" alt="Male" class="genderImg" id="male">
+        </div>
+        <div class="chose">
+            <div class="male">
+                <h1>What do you want to buy?</h1>
+                <img src="assets/shoes.png" alt="Shoes" id="maleShoes">
+                <img src="assets/bags.png" alt="Bags" id="maleBags">
+                <img src="assets/accessory.png" alt="Accessories"  id="maleAccessories">
+                <button class="refresh">GO BACK</button>
+            </div>
+            <div class="female">
+                <h1>What do you want to buy?</h1>
+                <img src="assets/shoes.png" alt="Shoes" id="femaleShoes">
+                <img src="assets/bags.png" alt="Bags" id="femaleBags">
+                <img src="assets/accessory.png" alt="Accessories" id="femaleAccessories">
+                <button class="refresh">GO BACK</button>
+            </div>
+        </div>
+        <div id="loading">Loading...</div>
+        <button class="refreshProducts">GO BACK</button>
+        <div id="products"></div>
+    </body>
+</html>
